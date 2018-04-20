@@ -1,8 +1,9 @@
 这是我的个人练习
 
 demo预览链接
+
 >表单单验证
->https://frattinor.github.io/practice/demo-表单单验证
+>https://frattinor.github.io/practice/demo-表单单验证/index.html
 
 >表单多验证
 >https://frattinor.github.io/practice/demo-表单多验证
