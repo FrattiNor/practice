@@ -51,4 +51,4 @@ demo预览链接
 >https://frattinor.github.io/practice/事件冒泡和捕获
 >
 >使用css实现折叠面板
->https://frattinor.github.io/practice/使用css实现折叠面板
+>https://frattinor.github.io/practice/使用css实现折叠面板/index.html
