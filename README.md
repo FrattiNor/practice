@@ -3,7 +3,7 @@
 demo预览链接
 
 >表单单验证
->https://frattinor.github.io/practice/demo-表单单验证
+>https://frattinor.github.io/practice/demo-表单单验证/index.html
 
 >表单多验证
 >https://frattinor.github.io/practice/demo-表单多验证
@@ -45,4 +45,4 @@ demo预览链接
 >https://frattinor.github.io/practice/喜迎19大mobile
 
 >face
->https://frattinor.github.io/practice/face
+>https://frattinor.github.io/practice/face/face1.html
