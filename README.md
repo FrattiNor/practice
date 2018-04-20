@@ -3,7 +3,7 @@
 demo预览链接
 
 >表单单验证
->https://frattinor.github.io/practice/demo-表单单验证/index.html
+>https://frattinor.github.io/practice/demo-表单单验证
 
 >表单多验证
 >https://frattinor.github.io/practice/demo-表单多验证

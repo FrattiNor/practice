@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myform{
+    float: left;
+    margin: 30px;
+}
+
+.ppp{
+    float: left;
+    /*border: 1px solid #111;*/
+    margin: 30px;
+}
+
+.colorr{
+    background-color: yellow;
+}
