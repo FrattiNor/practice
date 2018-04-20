@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+button{
+    outline:none;
+}
+.box{
+    top: 73%;
+    left: 9%;
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    /*border: 1px solid #f00;*/
+}
+.box2{
+    top: 42%;
+    left: 2%;
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    /*border: 1px solid #f00;*/
+}
+.box3{
+    top: 38%;
+    left: 38%;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    /*border: 1px solid #f00;*/
+}
+.box4{
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    /*border: 1px solid #f00;*/
+}
+.box5{
+    top: 88%;
+    left: 32%;
+    position: absolute;
+    width: 35%;
+    height: 9%;
+    /*border: 1px solid #f00;*/
+}
+
+
+
+
+
+
+
+
+/*第一层*/
+
+.win-one{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/*背景*/
+.bg1{
+    background: url(../img/bg1.png);
+    background-size: 100% 100%;
+}
+
+.bg-2{
+    background-color: #720000;
+}
+
+.bg-12{
+    backface-visibility: hidden;
+}
+
+/*尺寸*/
+.size-11{
+    width: 78.125%;
+    height: 80%;
+    position: absolute;
+}
+.size-12{
+    width: 72%;
+    height: 71.3%;
+    position: absolute;
+}
+.size-2{
+    width: 70%;
+    height: 71.3%;
+    position: absolute;
+}
+.size-13{
+    width: 76%;
+    height: 23.5%;
+    position: absolute;
+}
+.size-14{
+    width: 100%;
+    height: 32.718%;
+    position: absolute;
+}
+
+/*定位*/
+.position-11{
+    top: 10%;
+    left: 11%;
+    transform: rotateX(-30deg);
+}
+.position-12{
+    top: 10.5%;
+    left: 15.2%;
+    transform: rotateX(-30deg);
+}
+.position-2{
+    top: 10.5%;
+    left: 15.2%;
+    transform: rotateX(-30deg);
+}
+.position-13{
+    top: 53%;
+    left: 4%;
+    opacity: 0;
+}
+.position-14{
+    bottom: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第二层*/
+
+.win-two{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+/*背景*/
+.bg2{
+    background: url(../img/bg2.png);
+    background-size: 100% 100%;
+    /*opacity: 0;*/
+}
+.bg-22{
+    background: url(../img/bookbottom2.png);
+    background-size: 100% 100%;
+}
+.bg-21{
+    background: url(../img/bookbottom.png);
+    background-size: 100% 100%;
+}
+
+/*尺寸*/
+.size-21{
+    width: 95%;
+    height: 100%;
+    transform: rotateX(-30deg);
+    transform-origin: 0%;
+}
+.size-22{
+    transform: rotateX(-30deg);
+    width: 5.3125%;
+    height: 90%;
+}
+.size-23{
+    width: 100%;
+    height: 100%;
+}
+.size-26{
+    color:#fff;
+    font-size:1rem;
+}
+.size-231{
+    width: 87%;
+    height: 100%;
+}
+.size-232{
+    width: 41.4%;
+    height: 100%;
+}
+.size-233{
+    width: 100%;
+    height: 100%;
+}
+
+/*定位*/
+
+.position-21{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-22{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+.position-23{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-24{
+    position: absolute;
+    left: 0;
+    top: 15%;
+}
+.position-25{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+.position-26{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    line-height: 2rem;
+}
+.position-27{
+    position: absolute;
+    left: 35%;
+    top: 36%;
+}
+.position-231{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-232{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+.position-233{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*第三层*/
+
+/*背景*/
+
+
+/*尺寸*/
+.size-31{
+    width: 120%;
+    height: 26.893%;
+}
+.size-32{
+    width: 38%;
+    height: 26%;
+}
+.size-321{
+    width: 100%;
+    height: 100%;
+}
+.size-322{
+    width: 70%;
+    height: 47.184%;
+}
+.size-323{
+    width: 62.1875%;
+    height: 30.679%;
+}
+.size-324{
+    width: 100%;
+    height: 100%;
+}
+
+/*定位*/
+.position-31{
+    position: absolute;;
+    top: 50%;
+    left: 0;
+}
+.position-32{
+    position: absolute;;
+    top: 38%;
+    left: 35%;
+}
+.position-321{
+    animation-delay: 5.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-322{
+    animation-delay: 6s;
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.position-323{
+    animation-delay: 6.5s;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+}
+.position-324{
+    animation-delay: 7.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.position-325{
+    animation-delay: 7s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+/*第四层*/
+
+/*背景*/
+
+
+/*尺寸*/
+.size-41{
+    width: 120%;
+    height: 100%;
+}
+.size-42{
+    width:62.03%;
+    height: 24.369%;
+}
+.size-421{
+    width: 45%;
+    height: 22%;
+}
+
+/*定位*/
+.position-41{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.position-42{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.position-421{
+    animation-delay: 5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.position-422{
+    animation-delay: 4.5s;
+    position: absolute;
+    top: 0;
+    left: 5.5%;
+}
+.position-423{
+    animation-delay: 5.5s;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.position-424{
+    animation-delay: 6s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*第五层*/
+
+/*背景*/
+
+/*尺寸*/
+.size-51{
+    width: 100%;
+    height: 100%;
+}
+.size-52{
+    width: 44.375%;
+    height: 16%;
+}
+.size-53{
+    width: 60%;
+    height: 21%;
+}
+.size-54{
+    width: 35%;
+    height: 21.5%;
+}
+.size-55{
+    width: 61.125%;
+    height: 36.31%;
+}
+
+/*定位*/
+.position-51{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: 4.5s;
+}
+.position-52{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    animation-delay: 6s;
+}
+.position-53{
+    position: absolute;
+    top: 38%;
+    left: 28%;
+    animation-delay: 6.5s;
+}
+.position-54{
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    animation-delay: 5.5s;
+}
+.position-55{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    animation-delay: 5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第六层*/
+
+/*尺寸*/
+.size-61{
+    width: 120%;
+    height: 100%;
+}
+.size-62{
+    width: 100%;
+    height: 100%;
+}
+.size-63{
+    width: 100%;
+    height: 100%;
+}
+.size-64{
+    width: 22.8125%;
+    height: 20%;
+}
+.size-65{
+    width: 94%;
+    height: 55%;
+}
+.size-66{
+    width: 77%;
+    height: 38%;
+}
+.size-67{
+    width: 20%;
+    height: 15%;
+}
+.size-68{
+    width: 45%;
+    height: 14.5%;
+}
+.size-69{
+    width: 39.5%;
+    height: 8%;
+}
+
+/*定位*/
+.position-61{
+    position: absolute;
+    top: -25%;
+    left: 0;
+    opacity: 0;
+}
+.position-62{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.position-63{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: 4.5s;
+}
+.position-64{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    animation-delay: 5s;
+}
+.position-65{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: 5.5s;
+}
+.position-66{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    animation-delay: 6s;
+}
+.position-67{
+    position: absolute;
+    top: 69%;
+    left: 11%;
+    animation-delay: 6.5s;
+}
+.position-68{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    animation-delay: 7s;
+}
+.position-69{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    animation-delay: 7.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第七层*/
+.win-three{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    color: #fff;
+}
+
+.bg7{
+    /*opacity: 0;*/
+    background-color: RGBA(0,0,0,.5);
+}
+
+.select0{
+    text-align: center;
+    width: 60%;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+.select1{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    padding-left: 10px;
+    width: 54%;
+    height: 5%;
+    font-size: 1rem;
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    color: #ffffff;
+}
+
+.select2{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    padding-left: 10px;
+    width: 54%;
+    height: 5%;
+    font-size: 1rem;
+    position: absolute;
+    left: 23%;
+    top: 50%;
+    color: #ffffff;
+}
+
+.select3{
+    border-radius: 10px;
+    border: 2px solid #FFCC66;
+    background: transparent;
+    width: 20%;
+    height: 5%;
+    font-size: 1rem;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    color: #FFCC66;
+}
+
+/*尺寸*/
+.size-71{
+    width: 120%;
+    height: 120%;
+}
+.size-72{
+    width: 56%;
+    height: 24%;
+}
+.size-73{
+    width: 78%;
+    height: 37.5%;
+}
+.size-74{
+    width: 115%;
+    height: 115%;
+}
+
+/*定位*/
+.position-71{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    opacity: 0;
+}
+.position-72{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.position-73{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.position-74{
+    opacity: 0;
+    position: absolute;
+    top: -8%;
+    left: -5%;
+}
+
+
+
+
+
+
+
+/*第八层*/
+.size-81{
+    width: 110%;
+    height: 110%;
+}
+.position-81{
+    position: absolute;
+    top: -10%;
+    left: -3%;
+}
+.select4{
+    border-radius: 10px;
+    border: 2px solid #FFCC66;
+    background: transparent;
+    width: 30%;
+    height: 7%;
+    font-size: 1rem;
+    position: absolute;
+    left: 15%;
+    top: 90%;
+    color: #FFCC66;
+}
+.select5{
+    border-radius: 10px;
+    border: 2px solid #FFCC66;
+    background: transparent;
+    width: 30%;
+    height: 7%;
+    font-size: 1rem;
+    position: absolute;
+    left: 60%;
+    top: 90%;
+    color: #FFCC66;
+}
+
+.box8{
+    font-size: 0.8rem;
+    top: 56%;
+    left: 50%;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    /*border: 1px solid #f00;*/
+}
+
+.box7{
+    font-size: 0.8rem;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    /*border: 1px solid #f00;*/
+}
+.box-6{
+    font-size: 1rem;
+    top: 40%;
+    left: 23%;
+    position: absolute;
+    width: 70%;
+    height: 4%;
+    /*border: 1px solid #f00;*/
+}
+.box-5{
+    font-size: 1rem;
+    top: 44%;
+    left: 23%;
+    position: absolute;
+    width: 70%;
+    height: 4%;
+    /*border: 1px solid #f00;*/
+}
+.box-4{
+    font-size: 1rem;
+    top: 48%;
+    left: 23%;
+    position: absolute;
+    width: 70%;
+    height: 4%;
+    /*border: 1px solid #f00;*/
+}
+
+
+
+
+
+/*选择框*/
+.win-four{
+    overflow: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 100%;
+    color: #fff;
+}
+.bg8{
+    /*opacity: 0;*/
+    background-color: RGBA(0,0,0,.8);
+}
+.mydd1{
+    margin: auto;
+    width: 60%;
+    padding: 3%;
+    text-align: center;
+    border-top:0.5px solid #fff;
+}
+.mydd2{
+    margin: auto;
+    width: 60%;
+    padding: 3%;
+    text-align: center;
+    border-top:0.5px solid #fff;
+}

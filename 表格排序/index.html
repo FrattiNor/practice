@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>表格排序</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+</head>
+
+<body>
+
+<table>
+    <tbody id="table">
+        <tr id="first">
+            <td>姓名</td>
+            <td>语文<span class="upBtn"></span>
+                <span class="downBtn"></span></td>
+            <td>数学<span class="upBtn"></span>
+                <span class="downBtn"></span></td>
+            <td>英语<span class="upBtn"></span>
+                <span class="downBtn"></span></td>
+            <td>总分<span class="upBtn"></span>
+                <span class="downBtn"></span></td>
+        </tr>
+        <tr>
+            <td><input value="小明" type="text" /></td>
+            <td><input value="80" type="text" /></td>
+            <td><input value="90" type="text" /></td>
+            <td><input value="70" type="text" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input value="小红" type="text" /></td>
+            <td><input value="90" type="text" /></td>
+            <td><input value="60" type="text" /></td>
+            <td><input value="90" type="text" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input value="小亮" type="text" /></td>
+            <td><input value="60" type="text" /></td>
+            <td><input value="100" type="text" /></td>
+            <td><input value="70" type="text" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<div id="butt">
+    <input id="value" type="text" placeholder="输入要删除或插入的行"/>
+    <button id="addd">添加一行</button>
+    <button id="shanchu">删除一行</button>
+</div>
+
+<script src="js/myjs.js"></script>
+</body>
+</html>

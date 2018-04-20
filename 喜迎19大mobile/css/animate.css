@@ -1,0 +1,561 @@
+
+/*第一层*/
+.animate-1{
+    animation-duration: 1s;
+    animation-delay: 13s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes winone{
+    0%{
+        opacity: 1;
+        top: 0;
+    }
+    50%{
+        opacity: 0;
+        top: 0;
+    }
+    100%{
+        opacity: 0;
+        top: -100%;
+    }
+}
+
+.animate-11{
+    animation-duration: 3s;
+    animation-delay: 10s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes big{
+    0%{
+        width: 78.125%;
+        height: 80%;
+        top: 10%;
+        left: 11%;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+}
+
+.animate-12{
+    transform-origin: 0;
+    transform-style: preserve-3d;
+   /* animation-name: book;*/
+    animation-duration: 6s;
+    animation-delay: 7s;
+    animation-timing-function:ease;
+    animation-fill-mode: both;
+}
+@keyframes book{
+    0%{
+        transform:rotateX(-30deg);
+    }
+    50%{
+        width: 72%;
+        height: 71.3%;
+        top: 10.5%;
+        left: 15.2%;
+        transform:rotateX(-30deg) rotateY(120deg);
+    }
+    100%{
+        left:16.5%;
+        top:0;
+        height: 90%;
+        transform:rotateX(-30deg) rotateY(120deg);
+    }
+}
+
+.animate-13{
+   /* -webkit-animation-name: ship;*/
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function:ease;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes ship{
+    0%{
+        opacity:0;
+    }
+    37.5%{
+        top: 53%;
+        left: 4%;
+        opacity:1;
+    }
+    100%{
+        top: 80%;
+        left: 200%;
+        opacity: 0;
+    }
+}
+
+.animate-14{
+    /*-webkit-animation-name: water;*/
+    -webkit-animation-duration: 7s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function:ease;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes water{
+    0%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第二层*/
+
+.animate-2{
+    animation-duration: 0.5s;
+    animation-delay: 13.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes wintwo{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate-21{
+    animation-duration: 1s;
+    animation-delay: 17s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes book2{
+    0%{
+        transform: rotateX(-30deg);
+    }
+    100%{
+        transform: rotateX(-30deg) rotateY(
+        90deg);
+    }
+}
+
+.animate-23{
+    animation-duration: 2s;
+    animation-delay: 14s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes water3{
+    0%{
+        width: 100%;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 110%;
+    }
+}
+
+.animate-24{
+    animation-duration: 3s;
+    animation-delay: 14s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes water2{
+    0%{
+        left:-100%;
+        top: -10%;
+    }
+    100%{
+        left: 0%;
+        top: 15%;
+    }
+}
+
+.animate-25{
+
+    animation-duration: 3s;
+    animation-delay: 14s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes ship2{
+    0%{
+        left:-95%;
+        top: 20%;
+    }
+    100%{
+        left: 5%;
+        top: 45%;
+    }
+}
+
+.animate-26{
+    animation-duration: 2s;
+    animation-delay: 14s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes font2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate-221{
+    animation-duration: 1s;
+    animation-delay: 19s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes show2{
+    0%{
+        opacity: 1;
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    90%{
+        opacity: 0;
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%{
+        opacity: 0;
+        transform: rotateX(-30deg) rotateY(90deg);
+    }
+}
+
+.animate-232{
+    animation-name: bike;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function:ease;
+    animation-iteration-count:infinite;
+}
+@keyframes bike{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*第三层*/
+.animate-3-1{
+    /*animation-name: book2;*/
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate-3-2{
+   /* animation-name: book2;*/
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate-31{
+   /* animation-name: tu;*/
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes tu{
+    0%{
+        width: 90%;
+        opacity: 0;
+    }
+    100%{
+        width: 120%;
+        opacity: 1;
+    }
+}
+
+.animate-32{
+   /* animation-name: bike2;*/
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes bike2{
+    0%{
+        top: 25%;
+        left: 150%;
+    }
+    100%{
+        top: 38%;
+        left: 35%;
+    }
+}
+
+.animate-321{
+    /*animation-name: show3;*/
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes show3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate-324{
+    /*animation-name: showbus;*/
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes showbus{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第四层*/
+.animate-41{
+    /*animation-name: tu2;*/
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes tu2{
+    0%{
+        width: 90%;
+        opacity: 0;
+    }
+    100%{
+        width: 120%;
+        opacity: 1;
+    }
+}
+
+.animate-42{
+    /*animation-name: bus2;*/
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes bus2{
+    0%{
+        top: 15%;
+        left: 150%;
+    }
+    100%{
+        top: 30%;
+        left: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*第六层*/
+.animate-61{
+    /*animation-name: tu6;*/
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes tu6{
+    0%{
+        width: 90%;
+        opacity: 0;
+    }
+    100%{
+        width: 120%;
+        opacity: 1;
+    }
+}
+
+.animate-62{
+    /*animation-name: dc;*/
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes dc{
+    0%{
+        top: 20%;
+        left: -80%;
+    }
+    100%{
+        top: 30%;
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*第七层*/
+.animate-71{
+    /*animation-name: tu7;*/
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes tu7{
+    0%{
+        widows: 90%;
+        opacity: 0;
+    }
+    100%{
+        widows: 120%;
+        opacity: 1;
+    }
+}
+
+.animate-72{
+    /*animation-name: font7;*/
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes font7{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate-73{
+    /*animation-name: fly2;*/
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes fly2{
+    0%{
+        top: 0%;
+        left: -80%;
+    }
+    100%{
+        top: 10%;
+        left: 10%;
+    }
+}
+
+.animate-74{
+    /*animation-name: show7;*/
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes show7{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.animate-8{
+    opacity: 0;
+    /*animation-name: eight;*/
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes eight{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

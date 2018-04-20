@@ -1,0 +1,74 @@
+#mid{
+	color:#858585;
+	font-family: "微软雅黑";
+	/*border: 1px solid #E15616;*/
+	display: block;
+	background-color: #fff;
+	margin: 0 auto;
+	width: 1200px;
+	height: 1630px;
+}
+
+#fw{
+	border: 1px solid #F0F0F2;
+	font-size: 25px;
+	height: 70px;
+	background: url(../img/mid2/fw.png);
+	line-height: 70px;
+	text-align: left;
+	text-indent: 2em;
+}
+
+/*.fw{
+	width: 100px;
+	border: 1px solid #E15616;
+	height: 70px;
+}*/
+
+#picture{
+	height: 410px;
+	background: url(../img/mid2/car.png) repeat scroll top left;
+}
+
+.box{
+	margin-top: 30px;
+	display: block;
+	float:left;
+	/*border:1px solid #E15616;*/
+	width: 400px;
+	height: 502px;
+}
+
+.box3{
+	width: 320px;
+	height: 180px;
+	background-image: url(../img/mid2/pic.png);
+	border:1px solid #000;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.box p{
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 20px;
+	line-height: 44px;
+	height: 44px;
+	background-color: #F0F0F2;
+	margin:auto;
+	width: 330px;
+	border:1px solid #000000;
+	text-align: center;
+}
+
+.box2{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 15px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	width: 320px;
+	height: 400px;
+}
