@@ -52,3 +52,8 @@ demo预览链接
 >
 >使用css实现折叠面板
 >https://frattinor.github.io/practice/使用CSS实现折叠面板
+>
+>Vue练习_图书管理
+>https://frattinor.github.io/practice/Vue练习_图书管理
+>
+>

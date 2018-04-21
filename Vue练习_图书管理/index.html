@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <script src="js/vue.min.js"></script>
+</head>
+<body>
+    <h1>Vue.js 实例练习</h1>
+
+    <div id="book">
+        <table>
+            <thead>
+                <tr><td>书名</td><td>作者</td><td>价格</td><td>操作</td></tr>
+            </thead>
+            <tbody>
+                <tr  v-for="book in books">
+                    <td>{{ book.bookName }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.price }}</td>
+                    <td><button v-bind:id="book.index" v-on:click="del">删除</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>添加书籍</p>
+        <label>书名</label>
+        <input v-model="bookName" type="text" />
+        <label>作者</label>
+        <input v-model="author" type="text" />
+        <label>价格</label>
+        <input v-model.number="price" type="number" />
+        <button v-on:click="add">添加</button>
+    </div>
+
+
+    <script src="js/myjs.js"></script>
+</body>
+</html>
