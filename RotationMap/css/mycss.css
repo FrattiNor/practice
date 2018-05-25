@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box {
+    box-sizing: content-box;
+    height: 0;
+    width: 50%;
+    padding-bottom: 28.125%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px solid #aaa;
+    position: relative;
+    overflow: hidden;
+}
+.box img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.button_box {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 6%;
+    height: 0;
+    padding-bottom: 6%;
+    margin-top: -3%;
+    /*border: 1px solid #999;*/
+    background: url(../img/arrow_2.png);
+    background-color: RGBA(0,0,0,0.3);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+.next {
+    right: 0;
+    transform: rotate(90deg);
+}
+.prev {
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+.point_box {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -10%;
+    width: 20%;
+    height: 0;
+    padding-bottom: 2%;
+    z-index: 10;
+    /*border: 1px solid #000;*/
+}
+
+.point_box div {
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    height: 0;
+    width: 10%;
+    padding-bottom: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    border: 0.5px solid #aaa;
+    background-color: #aaa;
+    transition: 1s;
+}
+
+.on{
+    background-color: #fff !important;
+}
+
+
+.next_ani_1 {
+    animation: next_one 1s both;
+}
+
+@keyframes next_one {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+
+.next_ani_2 {
+    animation: next_two 1s both;
+}
+
+@keyframes next_two {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+.prev_ani_1 {
+    animation: prev_one 1s both;
+}
+
+@keyframes prev_one {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+.prev_ani_2 {
+    animation: prev_two 1s both;
+}
+
+@keyframes prev_two {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}

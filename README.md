@@ -38,6 +38,6 @@ demo预览链接
 >
 >[Vue练习_图书管理](https://frattinor.github.io/practice/Vue练习_图书管理)
 >
->
+>[轮播图](https://frattinor.github.io/practice/RotationMap)
 >
 >
